@@ -39,7 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Voopoo\\Casbin\\": "src/"
+            "Diandi\\Casbin\\": "src/"
         }
     },
     "suggest": {
@@ -50,7 +50,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Voopoo\\Casbin\\ConfigProvider"
+            "config": "Diandi\\Casbin\\ConfigProvider"
         }
     }
 }
