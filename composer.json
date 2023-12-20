@@ -1,5 +1,5 @@
 {
-    "name": "voopoo/hyperf-casbin",
+    "name": "diandi/hyperf-casbin",
     "type": "library",
     "license": "MIT",
     "version": "1.0.3",
