@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Voopoo\Casbin\Adapters\Mysql;
+namespace Diandi\HyperfCasbin\Adapters\Mysql;
 
 use Hyperf\Database\Schema\Schema;
 use Hyperf\Database\Schema\Blueprint;
@@ -18,7 +18,7 @@ use Casbin\Exceptions\InvalidFilterTypeException;
 /**
  * DatabaseAdapter.
  */
-class DatabaseAdapter implements Adapter, BatchAdapter, UpdatableAdapter, FilteredAdapter
+abstract class DatabaseAdapter implements Adapter, BatchAdapter, UpdatableAdapter, FilteredAdapter
 {
 
     use AdapterHelper;

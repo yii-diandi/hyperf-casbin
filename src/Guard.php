@@ -1,6 +1,6 @@
 <?php
 
-namespace Voopoo\Casbin;
+namespace Diandi\HyperfCasbin;
 
 use Hyperf\Utils\Collection;
 

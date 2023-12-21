@@ -9,4 +9,16 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-require_once dirname(dirname(__FILE__)) . '/vendor/autoload.php';
+namespace HyperfTest\Cases;
+
+/**
+ * @internal
+ * @coversNothing
+ */
+class ExampleTest extends AbstractTestCase
+{
+    public function testExample()
+    {
+        $this->assertTrue(true);
+    }
+}

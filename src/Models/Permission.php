@@ -2,20 +2,20 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Models;
+namespace Diandi\HyperfCasbin\Models;
 
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Collection;
 use Hyperf\DbConnection\Model\Model;
 use Hyperf\Database\Model\Relations\MorphToMany;
 use Hyperf\Database\Model\Relations\BelongsToMany;
-use Voopoo\Casbin\Contracts\Permission as PermissionContract;
-use Voopoo\Casbin\Guard;
-use Voopoo\Casbin\PermissionRegistrar;
-use Voopoo\Casbin\Traits\HasRoles;
-use Voopoo\Casbin\Traits\RefreshesPermissionCache;
-use Voopoo\Casbin\Exceptions\PermissionDoesNotExist;
-use Voopoo\Casbin\Exceptions\PermissionAlreadyExists;
+use Diandi\HyperfCasbin\Contracts\Permission as PermissionContract;
+use Diandi\HyperfCasbin\Guard;
+use Diandi\HyperfCasbin\PermissionRegistrar;
+use Diandi\HyperfCasbin\Traits\HasRoles;
+use Diandi\HyperfCasbin\Traits\RefreshesPermissionCache;
+use Diandi\HyperfCasbin\Exceptions\PermissionDoesNotExist;
+use Diandi\HyperfCasbin\Exceptions\PermissionAlreadyExists;
 
 
 class Permission extends Model implements PermissionContract

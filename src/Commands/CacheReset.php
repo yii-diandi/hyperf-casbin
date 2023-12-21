@@ -1,17 +1,17 @@
 <?php
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Commands;
+namespace Diandi\HyperfCasbin\Commands;
 
 use Hyperf\Command\Annotation\Command;
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Utils\ApplicationContext;
 use Psr\Container\ContainerInterface;
-use Voopoo\Casbin\PermissionRegistrar;
+use Diandi\HyperfCasbin\PermissionRegistrar;
 
 /**
  * Class CacheReset
- * @package Voopoo\Casbin\Commands
+ * @package Diandi\HyperfCasbin\Commands
  * @Command
  */
 class CacheReset extends HyperfCommand

@@ -2,18 +2,18 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Models;
+namespace Diandi\HyperfCasbin\Models;
 
 use Hyperf\DbConnection\Model\Model;
 use Hyperf\Database\Model\Relations\MorphToMany;
 use Hyperf\Database\Model\Relations\BelongsToMany;
-use Voopoo\Casbin\Exceptions\GuardDoesNotMatch;
-use Voopoo\Casbin\Exceptions\RoleAlreadyExists;
-use Voopoo\Casbin\Exceptions\RoleDoesNotExist;
-use Voopoo\Casbin\Guard;
-use Voopoo\Casbin\Contracts\Role as RoleContract;
-use Voopoo\Casbin\Traits\HasPermissions;
-use Voopoo\Casbin\Traits\RefreshesPermissionCache;
+use Diandi\HyperfCasbin\Exceptions\GuardDoesNotMatch;
+use Diandi\HyperfCasbin\Exceptions\RoleAlreadyExists;
+use Diandi\HyperfCasbin\Exceptions\RoleDoesNotExist;
+use Diandi\HyperfCasbin\Guard;
+use Diandi\HyperfCasbin\Contracts\Role as RoleContract;
+use Diandi\HyperfCasbin\Traits\HasPermissions;
+use Diandi\HyperfCasbin\Traits\RefreshesPermissionCache;
 
 class Role extends Model implements RoleContract
 {

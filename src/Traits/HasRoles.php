@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Traits;
+namespace Diandi\HyperfCasbin\Traits;
 
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Collection;
-use Voopoo\Casbin\Contracts\Role;
+use Diandi\HyperfCasbin\Contracts\Role;
 use Hyperf\Database\Model\Builder;
 use Hyperf\Database\Model\Relations\MorphToMany;
 use Hyperf\Database\Model\Events\Deleting;
-use Voopoo\Casbin\Enforcer;
-use Voopoo\Casbin\PermissionRegistrar;
+use Diandi\HyperfCasbin\Enforcer;
+use Diandi\HyperfCasbin\PermissionRegistrar;
 
 trait HasRoles
 {

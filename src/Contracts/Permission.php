@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Contracts;
+namespace Diandi\HyperfCasbin\Contracts;
 
 use Hyperf\Database\Model\Relations\BelongsToMany;
 

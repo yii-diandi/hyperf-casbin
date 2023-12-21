@@ -1,10 +1,10 @@
 <?php
 
-namespace Voopoo\Casbin;
+namespace Diandi\HyperfCasbin;
 
 use Hyperf\Utils\Collection;
-use Voopoo\Casbin\Contracts\Role;
-use Voopoo\Casbin\Contracts\Permission;
+use Diandi\HyperfCasbin\Contracts\Role;
+use Diandi\HyperfCasbin\Contracts\Permission;
 use Psr\Container\ContainerInterface;
 use Psr\SimpleCache\CacheInterface;
 

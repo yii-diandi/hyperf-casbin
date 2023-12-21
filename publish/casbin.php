@@ -1,5 +1,7 @@
 <?php
 
+use Diandi\HyperfCasbin\Adapters\Mysql\DatabaseAdapter;
+
 return [
     /*
      * Casbin model setting.
@@ -14,7 +16,7 @@ return [
      * Casbin adapter .
      */
     'adapter' => [
-        'class' =>\Voopoo\Casbin\Adapters\Mysql\DatabaseAdapter::class,
+        'class' => DatabaseAdapter::class,
         'constructor' => [
             'tableName' => 'casbin_rule'
         ],

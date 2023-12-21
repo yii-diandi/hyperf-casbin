@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Exceptions;
+namespace Diandi\HyperfCasbin\Exceptions;
 
 use InvalidArgumentException;
 

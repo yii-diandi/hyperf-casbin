@@ -1,6 +1,6 @@
 <?php
 
-namespace Voopoo\Casbin;
+namespace Diandi\HyperfCasbin;
 
 use Casbin\Enforcer as BaseEnforcer;
 use Casbin\Model\Model;

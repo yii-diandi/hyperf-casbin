@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Voopoo\Casbin\Util;
+namespace Diandi\HyperfCasbin\Util;
 
 
 use App\Constants\ErrorCode;
 use App\Exception\ApiException;
 use App\Model\Admin;
 use Hyperf\DbConnection\Db;
-use Voopoo\Casbin\Enforcer;
-use Voopoo\Casbin\Models\Permission;
-use Voopoo\Casbin\Models\Role;
+use Diandi\HyperfCasbin\Enforcer;
+use Diandi\HyperfCasbin\Models\Permission;
+use Diandi\HyperfCasbin\Models\Role;
 
 class RoleUtil
 {

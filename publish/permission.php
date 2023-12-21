@@ -3,8 +3,8 @@
 return [
     //model设置
     'models' => [
-        'permission' =>\Voopoo\Casbin\Models\Permission::class,
-        'role' => \Voopoo\Casbin\Models\Role::class,
+        'permission' =>\Diandi\HyperfCasbin\Models\Permission::class,
+        'role' => \Diandi\HyperfCasbin\Models\Role::class,
     ],
     //表名设置
     'table_names' => [
@@ -16,7 +16,7 @@ return [
     'guard' => 'web',
     'cache' => [
         'expiration_time' => 86400,
-        'key' => 'voopoo.permission.cache',
+        'key' => 'diandi.permission.cache',
         'model_key' => 'name',
         'store' => 'default',
     ],

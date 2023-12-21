@@ -2,20 +2,20 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Traits;
+namespace Diandi\HyperfCasbin\Traits;
 
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Collection;
-use Voopoo\Casbin\Enforcer;
-use Voopoo\Casbin\Guard;
+use Diandi\HyperfCasbin\Enforcer;
+use Diandi\HyperfCasbin\Guard;
 use Hyperf\Database\Model\Builder;
-use Voopoo\Casbin\PermissionRegistrar;
-use Voopoo\Casbin\Contracts\Permission;
-use Voopoo\Casbin\Exceptions\GuardDoesNotMatch;
+use Diandi\HyperfCasbin\PermissionRegistrar;
+use Diandi\HyperfCasbin\Contracts\Permission;
+use Diandi\HyperfCasbin\Exceptions\GuardDoesNotMatch;
 use Hyperf\Database\Model\Relations\MorphToMany;
-use Voopoo\Casbin\Exceptions\PermissionDoesNotExist;
+use Diandi\HyperfCasbin\Exceptions\PermissionDoesNotExist;
 use Hyperf\Database\Model\Events\Deleting;
-use Voopoo\Casbin\Models\Permission as ModelPermission;
+use Diandi\HyperfCasbin\Models\Permission as ModelPermission;
 
 trait HasPermissions
 {

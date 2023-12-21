@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Voopoo\Casbin\Middleware;
+namespace Diandi\HyperfCasbin\Middleware;
 
 
-use Voopoo\Casbin\Enforcer;
-use Voopoo\Casbin\Exceptions\UnauthorizedException;
-use Voopoo\Casbin\Models\Permission;
+use Diandi\HyperfCasbin\Enforcer;
+use Diandi\HyperfCasbin\Exceptions\UnauthorizedException;
+use Diandi\HyperfCasbin\Models\Permission;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Di\Annotation\Inject;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Voopoo\Casbin\Util\ActionLogUtil;
+use Diandi\HyperfCasbin\Util\ActionLogUtil;
 
 class PermissionMiddleware implements MiddlewareInterface
 {

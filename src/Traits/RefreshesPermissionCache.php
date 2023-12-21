@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Voopoo\Casbin\Traits;
+namespace Diandi\HyperfCasbin\Traits;
 
-use Voopoo\Casbin\PermissionRegistrar;
+use Diandi\HyperfCasbin\PermissionRegistrar;
 use Hyperf\Database\Model\Events\Saved;
 use Hyperf\Database\Model\Events\Deleted;
 use Hyperf\Utils\ApplicationContext;

@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Voopoo\Casbin\Util;
+namespace Diandi\HyperfCasbin\Util;
 
 use App\Model\Admin;
-use Voopoo\Casbin\Models\AdminLog;
-use Voopoo\Casbin\Exceptions\UnauthorizedException;
-use Voopoo\Casbin\Models\Log;
-use Voopoo\Casbin\Models\Permission;
+use Diandi\HyperfCasbin\Models\AdminLog;
+use Diandi\HyperfCasbin\Exceptions\UnauthorizedException;
+use Diandi\HyperfCasbin\Models\Log;
+use Diandi\HyperfCasbin\Models\Permission;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Logger\LoggerFactory;
 use Psr\Http\Message\ResponseInterface;
@@ -17,7 +17,7 @@ use Hyperf\Di\Annotation\Inject;
 
 /**
  * Class ActionLogService
- * @package Voopoo\Casbin\Service
+ * @package Diandi\HyperfCasbin\Service
  */
 class ActionLogUtil
 {

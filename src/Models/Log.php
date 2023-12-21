@@ -1,11 +1,11 @@
 <?php
 
 declare (strict_types=1);
-namespace Voopoo\Casbin\Models;
+namespace Diandi\HyperfCasbin\Models;
 
 use Hyperf\DbConnection\Model\Model;
-use Voopoo\Casbin\Guard;
-use Voopoo\Casbin\Contracts\Role as RoleContract;
+use Diandi\HyperfCasbin\Guard;
+use Diandi\HyperfCasbin\Contracts\Role as RoleContract;
 
 
 class Log extends Model

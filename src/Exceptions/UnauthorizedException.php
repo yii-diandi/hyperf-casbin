@@ -1,6 +1,6 @@
 <?php
 
-namespace Voopoo\Casbin\Exceptions;
+namespace Diandi\HyperfCasbin\Exceptions;
 
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
