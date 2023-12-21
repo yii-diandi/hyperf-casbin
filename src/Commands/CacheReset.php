@@ -17,7 +17,7 @@ use Diandi\HyperfCasbin\PermissionRegistrar;
 class CacheReset extends HyperfCommand
 {
 
-    protected $name = 'permission:cache-reset';
+    protected ?string $name = 'permission:cache-reset';
 
     protected $container;
 
