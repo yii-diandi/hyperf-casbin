@@ -6,7 +6,7 @@
         "php",
         "hyperf"
     ],
-    "description": "",
+    "description": "hyperf权限控制",
     "autoload": {
         "psr-4": {
             "Diandi\\HyperfCasbin\\": "src/"
