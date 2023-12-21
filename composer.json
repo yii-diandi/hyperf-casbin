@@ -19,16 +19,8 @@
     },
     "require": {
         "php": ">=8.0",
-        "hyperf/database": "3.*",
-        "hyperf/db-connection": "3.*",
-        "hyperf/cache": "3.*",
-        "hyperf/utils": "3.*",
-        "hyperf/config": "3.*",
-        "hyperf/logger": "3.*",
-        "casbin/casbin": "~3.6.0",
-        "hyperf/command": "3.*",
-        "casbin/psr3-bridge": "^1.3",
-        "hyperf/validation": "3.*"
+        "casbin/casbin": "~3.21.0",
+        "casbin/psr3-bridge": "^1.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
